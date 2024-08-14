@@ -1,0 +1,35 @@
+.container-app {
+  display: flex;
+}
+
+.caixa-app {
+  margin-top: 200px;
+  margin-left: 5rem;
+}
+
+h2 {
+  color: #e53939;
+  font-size: 3rem;
+}
+
+.avatar {
+  width: 380px;
+  margin: auto;
+  margin-top: 6rem;
+  border-radius: 50%;
+  margin-left: 15rem;
+  box-shadow: 6px 0px 15px 0px #e53939;
+  animation: MoveAvatar 1s infinite alternate ease-in-out;
+}
+
+@keyframes MoveAvatar {
+  from {
+    transform: translate(0%, -10%) rotate(0deg);
+  }
+}
+
+h3 {
+  color: #fff;
+  margin-top: 5rem;
+  font-size: 3rem;
+}
