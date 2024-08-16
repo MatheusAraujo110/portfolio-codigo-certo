@@ -1,17 +1,19 @@
+import React from 'react'
 import './NavBar.css'
 import Logo from "../../assets/Logo (2).jpeg"
 
 function NavBar() {
 
     return (
-        <section className='container-header'>
-            <nav className='header'>
-                <a href='#aboutme' className='link'>Sobre mim</a>
-                <a href='#personal-tastes' className='link'>Gostos Pessoais</a>
-                <a href='#motivations' className='link'>Motivações</a>
+        <header className='header'>
+            <img href='#home' src={Logo} alt="logo" className='logo' />
+
+            <nav className='navbar'>
+                <a href='#aboutme'>Sobre mim</a>
+                <a href='#personal-tastes'>Gostos Pessoais</a>
+                <a href='#motivations'>Motivações</a>
             </nav>
-            <img src={Logo} alt="logo" className='logo'/>
-        </section>
+        </header>
     )
 }
 
