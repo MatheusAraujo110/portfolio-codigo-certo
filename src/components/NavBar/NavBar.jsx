@@ -9,6 +9,7 @@ function NavBar() {
             <img href='#home' src={Logo} alt="logo" className='logo' />
 
             <nav className='navbar'>
+            <a href='#'>Home</a>
                 <a href='#aboutme'>Sobre mim</a>
                 <a href='#personal-tastes'>Gostos Pessoais</a>
                 <a href='#motivations'>Motivações</a>
