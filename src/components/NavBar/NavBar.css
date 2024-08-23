@@ -13,14 +13,14 @@
     justify-content: space-between;
     align-items: center;
     z-index: 100;
-    background: transparent;
+    background: #00000094;
 }
 
 .navbar a {
     position: relative;
     font-size: 18px;
     color: #e53939;
-    font-weight: 500;
+    font-weight: bold;
     margin-left: 40px;
 
     &:hover {
