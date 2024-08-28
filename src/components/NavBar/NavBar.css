@@ -1,8 +1,3 @@
-.logo {
-    width: 70px;
-    border-radius: 100%;
-}
-
 .header {
     position: fixed;
     top: 0;
@@ -16,12 +11,31 @@
     background: #00000094;
 }
 
-.navbar a {
+.logo {
+    width: 70px;
+    border-radius: 100%;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 8vh;
+}
+
+.nav-menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 3rem;
+}
+
+a {
     position: relative;
     font-size: 18px;
     color: #e53939;
-    font-weight: bold;
-    margin-left: 40px;
+    font-weight: 600;
+    margin-left: 15px;
 
     &:hover {
         opacity: 0.8;
@@ -32,50 +46,30 @@
     }
 }
 
-.navbar a::before {
-    content: '';
-    position: absolute;
-    top: 100%;
-    left: 0;
-    width: 0;
-    height: 2px;
-    background: #e53939;
-    transition: .3s;
-}
-
-.navbar a:hover:before {
-    width: 100%;
-}
-
-.nav-list {
+li {
     list-style: none;
-    display: flex;
 }
 
-.nav-list li {
-    letter-spacing: 3px;
-    margin-left: 32px;
+
+.nav-toggler div {
+    width: 2.3rem;
+    height: 0.1rem;
+    margin: 0.4rem;
+    background: #e53939;
+    transition: 0.4s ease-in;
 }
 
-.mobile-menu {
+.nav-toggler {
     display: none;
     cursor: pointer;
 }
 
-.mobile-menu div {
-    width: 32px;
-    height: 2px;
-    background: #e53939;
-    margin: 8px;
-    transition: 0.3s;
-}
-
-@media (max-width:1068px) {
-    body {
-        overflow-x: hidden;
+@media (max-width:1001px) {
+    .nav-toggler {
+        display: block;
     }
 
-    .nav-list {
+    .nav-menu {
         position: absolute;
         top: 5rem;
         right: 0;
@@ -87,43 +81,23 @@
         align-items: center;
         justify-content: space-around;
         transform: translateX(100%);
-        transition: transform 0.4s ease-in;
-    }
-
-    .nav-list li {
-        margin-left: 0;
-        opacity: 0;
-    }
-
-    .mobile-menu {
-        display: block;
+        transition: transform 0.6s ease-in;
     }
 }
 
-.nav-list.active {
+.nav-active {
     transform: translateX(0);
+    background: #fff;
 }
 
-@keyframes navLinkFade {
-    from {
-        opacity: 0;
-        transform: translateX(50px);
-    }
-
-    to {
-        opacity: 1;
-        transform: translateX(0);
-    }
+.toggle .line1 {
+    transform: rotate(-45deg) translate(-4px, 5px);
 }
 
-.mobile-menu.active .line1 {
-    transform: rotate(-45deg) translate(-8px, 8px);
-}
-
-.mobile-menu.active .line2 {
+.toggle .line2 {
     opacity: 0;
 }
 
-.mobile-menu.active .line3 {
-    transform: rotate(45deg) translate(-5px, -7px);
+.toggle .line3 {
+    transform: rotate(45deg) translate(-6px, -6px);
 }
