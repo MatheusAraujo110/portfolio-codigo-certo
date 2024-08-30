@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import NavBar from './components/NavBar/NavBar'
 import AboutMe from './components/AboutMe/AboutMe'
 import PersonalTastes from "./components/PersonalTastes/PersonalTastes"

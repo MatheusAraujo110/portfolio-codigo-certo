@@ -8,7 +8,7 @@
     justify-content: space-between;
     align-items: center;
     z-index: 100;
-    background: #00000094;
+    background: #000;
 }
 
 .logo {
@@ -100,4 +100,21 @@ li {
 
 .toggle .line3 {
     transform: rotate(45deg) translate(-6px, -6px);
+}
+
+@media (max-width:430px) {
+    .header {
+        width: 110%;
+        left: -22px;
+    }
+
+    a {
+        margin-left: 0;
+    }
+}
+
+@media (max-width:360px) {
+    .nav-menu {
+        height: 42vh;
+    }
 }

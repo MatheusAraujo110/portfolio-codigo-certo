@@ -20,3 +20,69 @@ h1 {
     display: block;
     margin-left: 22rem;
 }
+
+@media (max-width:1189px) {
+    .caixa-div {
+        margin-left: 14rem;
+    }
+}
+
+@media (max-width:1135px) {
+    .caixa-div {
+        margin-left: 12rem;
+    }
+}
+
+@media (max-width:1050px) {
+    .caixa-div {
+        margin-left: 8rem;
+    }
+}
+
+@media (max-width:1050px) {
+    .motivations-p {
+        font-size: 1.8rem;
+        margin-bottom: 3rem;
+    }
+}
+
+@media (max-width:950px) {
+    .caixa-div {
+        margin-left: 1rem;
+    }
+
+    .container-p {
+        line-height: 1.6rem;
+    }
+
+    .motivations-p {
+        font-size: 1.6rem;
+    }
+}
+
+@media (max-width:430px) {
+    .motivations-p {
+        line-height: 2rem;
+        width: 25rem;
+        margin-bottom: 0;
+        font-family: sans-serif;
+    }
+}
+
+@media (max-width:415px) {
+    .motivations-p {
+        width: 23rem;
+    }
+}
+
+@media (max-width:390px) {
+    .motivations-p {
+        width: 22rem;
+    }
+}
+
+@media (max-width:360px) {
+    .motivations-p {
+        width: 21rem;
+    }
+}

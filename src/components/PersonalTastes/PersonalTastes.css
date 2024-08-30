@@ -8,7 +8,6 @@
 	gap: 30px;
 	padding: 50px;
 	margin-top: 10rem;
-	transform: skew(-10deg);
 }
 
 .person-h1 {
@@ -62,7 +61,7 @@
 		background-repeat: no-repeat;
 		background-size: 50% 50%, 50% 50%;
 		background-position: 0 0, 100% 0, 100% 100%, 0 100%;
-		background-image: linear-gradient(180deg,  #e53939, #000);
+		background-image: linear-gradient(180deg, #e53939, #000);
 		animation: rotate 4s linear infinite;
 	}
 
@@ -76,6 +75,76 @@
 		height: calc(100% - 12px);
 		background: white;
 		border-radius: 5px;
-		
+
+	}
+}
+
+@media (max-width:1189px) {
+	.person-h1 {
+		margin-left: 25rem;
+	}
+
+	.person-p {
+		padding: 30px;
+	}
+}
+
+@media (max-width:1050px) {
+	.person-h1 {
+		margin-left: 20rem;
+	}
+}
+
+@media (max-width:853px) {
+	.person-h1 {
+		margin-left: 14rem;
+	}
+}
+
+@media (max-width:823px) {
+	.person-h1 {
+		margin-left: 14rem;
+	}
+}
+
+@media (max-width:430px) {
+	.person-h1 {
+		margin-left: 1rem;
+	}
+
+	.caixa-person {
+		display: inline-block;
+		width: 27rem;
+		margin-top: 3rem;
+	}
+}
+
+@media (max-width:390px) {
+	.person-h1 {
+		margin-left: 0rem;
+	}
+
+	.caixa-person {
+		margin-left: -1rem;
+	}
+}
+
+@media (max-width:375px) {
+	.person-h1 {
+		margin-left: -7px;
+	}
+
+	.caixa-person {
+		margin-left: -26px;
+	}
+}
+
+@media (max-width:360px) {
+	.person-h1 {
+		margin-left: -16px;
+	}
+
+	.caixa-person {
+		margin-left: -35px;
 	}
 }
