@@ -1,5 +1,7 @@
 # 🔴 Codigo certo 🔴
 
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=30&pause=900&color=e53939&multiline=true&repeat=false&width=550&height=70&lines=Dev+Front+End+Matheus+Araujo)](https://git.io/typing-svg)
+
 <p>Olá devs, no projeto de hoje venho trazer a criação do meu portfólio para conseguir ingressar na empresa Codigo Certo para fazer trabalho voluntário que vai me ajudar bastante na minha carreira profissional.</p>
 
 <br>
